@@ -1,7 +1,7 @@
-var playlist = {artistnames: "song titles"};
+var playlist = { debussy: "prelude of a fawn"};
 
-function updatePlaylist('names', 'song title') {
-  return playlist.assign ({}, 'playist')
+function updatePlaylist(playlist, name, song_title) {
+  return playlist.assign ({}, {name: song_title})
 }
 
 function removeFromPlaylist('playlist', 'name')
