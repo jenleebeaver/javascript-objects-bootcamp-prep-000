@@ -4,6 +4,6 @@ function updatePlaylist(playlist, name, song_title) {
   return playlist.assign ({}, {name: song_title})
 }
 
-function removeFromPlaylist('playlist', 'name')
+function removeFromPlaylist(playlist, name)
 delete playlist.names;
 {return playlist}
